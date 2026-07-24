@@ -114,3 +114,10 @@ a:hover {
     border: 4px solid #2563eb;
     margin-bottom: 20px;
 }
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
