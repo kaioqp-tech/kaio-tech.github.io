@@ -121,3 +121,44 @@ a:hover {
     margin-top: 20px;
     flex-wrap: wrap;
 }
+.lista-habilidades {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-habilidades li {
+    background: #0f172a;
+    border: 1px solid #1e3a8a;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 28px 20px;
+    border-top: 1px solid #1e3a8a;
+    background: #080d18;
+}
+
+footer p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .lista-habilidades {
+        grid-template-columns: 1fr;
+    }
+
+    .menu {
+        gap: 8px;
+    }
+
+    .menu a {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+}
